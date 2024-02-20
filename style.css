@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+em {
+    color: cadetblue;
+}
+
+
+h1 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+    font-family: Verdana;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h6{
+    color: #ddd;
+    padding: 0;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.image {
+    width: calc(100% - 20px); /* Adjust based on the number of images per row */
+}
+  
+.image img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Add borders around images */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+/* Optional: Add hover effects */
+.image img:hover {
+    opacity: 0.8;
+}
